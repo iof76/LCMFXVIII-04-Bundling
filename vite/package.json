@@ -1,0 +1,25 @@
+{
+  "name": "react-base",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --port 1234"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "@vitejs/plugin-react": "^5.0.2",
+    "rollup-plugin-bundle-stats": "^4.21.3",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "vite-bundle-analyzer": "^1.2.3",
+    "vite-plugin-checker": "^0.10.3"
+  },
+  "dependencies": {
+    "loglevel": "^1.9.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.13"
+  }
+}
