@@ -15,8 +15,7 @@ export default defineConfig({
                 openAnalyzer: false,
                 reportTitle: "Bundle Analysis",
                 fileName: "bundle-report.html",
-              }),
-            
-            bundleStats(),
+              }),        
+    bundleStats(),
   ],
 });

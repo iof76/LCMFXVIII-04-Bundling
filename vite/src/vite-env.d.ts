@@ -1,6 +1,6 @@
 interface ImportMetaEnv {
    readonly VITE_API_BASE: string;
-   readonly VITE_ENABLE_FEATURE_A: Boolean;
+   readonly VITE_ENVIROMENT_STRING: String;
 }
 
 interface ImportMeta {

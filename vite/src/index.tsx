@@ -1,9 +1,9 @@
 
 
 import { createRoot } from "react-dom/client";
-import { HelloComponent } from "./hello";
+import { MyComponent } from "./myComponent";
 import "./styles.css";
 
 const root = createRoot(document.getElementById("root"));
 
-root.render(<HelloComponent />);
+root.render(<MyComponent />);

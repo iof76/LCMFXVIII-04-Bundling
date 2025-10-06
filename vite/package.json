@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "start": "vite --host",
-    "build": "vite build",
-    "preview": "vite preview --port 1234"
+    "build": "vite build  --mode development",
+    "preview": "vite preview --port 1234 --mode production"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.13",
